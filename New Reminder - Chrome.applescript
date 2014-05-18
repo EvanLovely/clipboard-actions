@@ -1,4 +1,5 @@
 # Adds current Chrome tab's title and URL to Reminder note
+display notification "This can take a while..."
 tell application "Google Chrome"
   set tabname to get title of active tab of window 1
   set taburl to get URL of active tab of window 1
