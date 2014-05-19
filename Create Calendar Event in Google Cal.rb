@@ -1,4 +1,4 @@
-# Create new Gmail email with copied text as body. 
+# Make a new Calendar title
 require "erb"
 require "uri"
 

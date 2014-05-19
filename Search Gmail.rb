@@ -1,4 +1,4 @@
-# Create new Gmail email with copied text as body. 
+# Search last active Gmail account
 require "erb"
 require "uri"
 

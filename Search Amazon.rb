@@ -1,4 +1,4 @@
-# Create new Gmail email with copied text as body. 
+# Find stuff to buy
 require "erb"
 require "uri"
 

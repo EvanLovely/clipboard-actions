@@ -1,4 +1,4 @@
-# Find stuff on maps
+# Send text post to Google Plus
 require "erb"
 require "uri"
 
@@ -7,4 +7,4 @@ include ERB::Util
 clipboard=`pbpaste`
 url=url_encode(clipboard)
 
-`open 'https://www.google.com/maps/search/#{url}'`
+`open 'https://plus.google.com/share?url=#{url}'`
